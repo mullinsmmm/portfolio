@@ -1,32 +1,41 @@
-h1 {
-    color : red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-}
-
-p {
-    color:orange;
-    font-weight: 50px;
-}
+/*Google fonts top of css*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
 
 /*use * for entire document*/
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 200;
 }
 
 /*use . for class*/
 .headline {
     background-color: limegreen;
+    color : red;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 800;
 }
 
 /*use # for id*/
 #about {
-    background-color: aquamarine;
+    background-color: rgba(49, 94, 79, 0.705);
     color : white;
     font-weight: 200px ;
 }
 
-.aboutImage {
-    
+
+/*pseudo-class  :  alters an existing class */
+.headline:hover {
+    background-color: blueviolet;
+    font-style: italic;
 }
+
+#box:checked{
+    outline: 8px solid green;
+  }
+
+/*pseudo-elements  ::  alter all elements i.e. all p*/
+p::first-letter {
+    color: rgb(41, 18, 173);
+ }
+
+
