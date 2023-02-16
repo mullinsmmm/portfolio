@@ -1,0 +1,11 @@
+/*https://colourcontrast.cc/1c4058/ffe66b*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    background-color: #1c4058;
+    color: #ffe66b;
+    font-family:'Open Sans', sans-serif;
+}
+
+.headline {
+    font-size: 5rem;
+}
