@@ -1,5 +1,4 @@
 * {
-    background-color: darksalmon;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -11,6 +10,8 @@
     justify-content:center; /*alignment of elements*/
     width: 100vm;
     height: 100vh;
+    background-color: darksalmon;
+
 }
 
 /* class */
@@ -21,4 +22,13 @@
     width: 30vw;
     height: 30vh;
     flex-basis: 300px; /*sets a defult size*/
+}
+
+.welcome {
+    display:flex;
+    width: 
+    height: 100vh;
+    background-color: gold;
+    /* background-image: url(https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1143&q=80); */
+    justify-content:center;
 }
