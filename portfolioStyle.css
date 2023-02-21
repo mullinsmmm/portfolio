@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+  
+
+body{
+    background-color: #ffe66b;
+    color: #1c4058;
+    font-family:'Open Sans', sans-serif;
+    min-height: 100vh; /*sets min height for the browser window*/
+}
+
+header {
+    text-align: center;
+    background-color: blue;
+    border: 1px solid red;
+}
+
+p {
+    text-align: center;
+}
+
+    
