@@ -1,7 +1,7 @@
 /*https://colourcontrast.cc/1c4058/ffe66b*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
   
-
+/** is all elements, different from the page equally*/
 *{
     background-color: #ffe66b;
     color: #1c4058;
