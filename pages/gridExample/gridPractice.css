@@ -1,0 +1,238 @@
+.parent {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 98vh;
+        width: 98vw;
+        padding: 0px;
+        border: 0px;
+        margin: 0px; 
+    }
+    
+/*DIV - LARGE BOXES*/
+    .div1 { 
+        display: flex;
+        grid-area: 1 / 1 / 3 / 6; 
+        background-color: rgb(95, 158, 160);  
+        justify-content:space-around; /* main axis*/ 
+        align-items: center;     /* cross axis*/
+    }
+
+    .div2 { 
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 6 / 4 / 8; 
+        background-color: #4D91A9;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .div3 { 
+        display:flex;
+        flex-direction: column;
+        grid-area: 3 / 1 / 6 / 3; 
+        background-color: #5681AB;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .div4 { 
+        display: flex;
+        grid-area: 4 / 4 / 5 / 5; 
+        background-color: #706EA1;
+        justify-content: space-around;
+        align-items: center;
+    }
+ 
+    .div5 { 
+        display: flex;
+        flex-direction: column;
+        grid-area: 3 / 3 / 6 / 4; 
+        background-color: #885887;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .div6 { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 3 / 4 / 4 / 5; 
+        background-color: #934561;
+    }
+
+    .div7 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        grid-area: 3 / 5 / 6 / 6; 
+        background-color: rgb(112, 43, 68);
+    }
+    
+    .div8 { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 5 / 4 / 6 / 5; 
+        background-color: rgb(82, 9, 36);
+    }
+
+    .div9 { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 4 / 6 / 6 / 8; 
+        background-color: rgb(51, 7, 23);
+    }
+
+/*HOVER*/
+    .div1:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease-in-out;
+        /* transition-timing-function: ease-in-out; */
+    }
+
+    .div2:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div3:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div4:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div5:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div6:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div7:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div8:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+    .div9:hover {
+        background-color: antiquewhite;
+        transition: 3.4s ease;
+    }
+
+/*DIV CHILD*/
+    .div1_child {
+        width: 10vw;
+        height: 10vh;
+        background-color: darkorange;
+        transition: width 2s;
+    }
+
+        .div1_child:hover {
+            width: 20vw;   
+        }
+
+    .div2_child{
+        background-color: darkred;
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div2_child:hover {
+            width: 20vw;   
+        }
+
+    .div3_child {
+        background-color: rgb(146, 32, 150);
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div3_child:hover {
+            width: 20vw;   
+        }
+
+    .div4_child {
+        background-color: rgb(235, 105, 57);
+        width: 1vw;
+        height: 1vh;
+        border: 10%;
+        transition: width 2s;
+    }
+
+        .div4_child:hover {
+            width: 5vw;   
+        }
+
+    .div5_child {
+        background-color: lightsalmon;
+        width: 5vw;
+        height: 5vh;
+       transition: width 2s;
+    }
+
+        .div5_child:hover {
+            width: 10vw;   
+        }
+
+    .div6_child {
+        background-color: gold;
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div6_child:hover {
+            width: 13vw;   
+        }
+
+
+    .div7_child {
+        background-color: rgb(133, 118, 33);
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div7_child:hover {
+            width: 13vw;   
+        }
+
+    .div8_child {
+        background-color: rgb(129, 192, 13);
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div8_child:hover {
+            width: 13vw;   
+        }
+
+    .div9_child {
+        background-color: rgb(199, 18, 117);
+        width: 10vw;
+        height: 10vh;
+        transition: width 2s;
+    }
+
+        .div9_child:hover {
+            width: 20vw;  
+        }
